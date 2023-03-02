@@ -49,21 +49,21 @@ h1{
   font-family: 'Great Vibes', cursive;
 }
 h1 span{
-  color: rgb(199, 215, 215);
+  color: rgb(243, 235, 240);
 }
 p{
   padding-top: 40px;
   font-weight: 500px;
-  font-size: 20px;
-  color: rgb(227, 215, 221);
+  font-size: 22px;
+  color: rgb(75, 6, 42);
 
 }
 p span{
   display: block;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 24px;
+  font-size: 35px;
   font-weight: 700px;
-  color: rgb(250, 250, 250);
+  color: rgb(98, 6, 33);
   padding-bottom: 15px;
 }
 #Menu{
@@ -74,6 +74,7 @@ p span{
  max-width: 460;
  height: 560px;
  margin: 50px, auto;
+ font-size: 23px;
  
 }
 table {
