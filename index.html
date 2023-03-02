@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <style>
+        h1{
+            text-align: center;
+            color: #5a0330;
+        }
+        body{
+            background-color: rgb(188, 184, 184);
+        }
+        #Contact{
+    
+    background-color: aliceblue;
+    max-width: 360px;
+     margin: 50px auto;
+    border: 25px;
+    height: auto;
+    overflow: hidden;
+    box-shadow: #aa74cb;
+        }
+
+.input{
+    display: block;
+    padding: 10px;
+    margin: 1px;
+    width: 90%;
+    border: none;
+    outline: none;
+}
+
+select {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+
+#checkbox{
+    padding: 10px;
+    margin: 15px;
+    width: 20%;
+    border: none;
+    outline: none;
+}
+#submit{
+    padding: 10px;
+    margin: 40px;
+    width: 20%;
+    border: none;
+    background: #da0c65;
+    color:rgb(7, 0, 0);
+    outline: none;
+}
+#submit:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px  #aa74cb;
+    background-color: #d477a7;
+    color: aliceblue;
+    transition: all 0.5s;
+}
+    </style>
+</head>
+
+<body>
+    <h1>Herald College Kathmandu Survey Form</h1>
+    <div id="Contact" style="padding:20px;">
+    <form action="" class="form">
+        <label>Name</label>
+        <input type="text" name="name" class="input" placeholder="Enter Your Name"><br>
+        <label>Email</label>
+        <input type="email" name="email" class="input" placeholder="Enter Your Email"><br>
+        <label>Age</label>
+        <input type="age" name="Age" class="input" placeholder="Enter Your Age"><br>
+            <label for="dropdown">Which option best describes you?:</label>
+            <br>
+            <select id="dropdown" style="padding: 5px;">
+              <option value="Student">Student</option>
+              <option value="Teacher">Teacher</option>
+              <option value="Intern">Intern</option>
+            </select>
+            <br>
+            <p>Would you recommend Herald College to a friend?</p>
+            <br>
+            <input type="radio" id="radio" style="padding:20px;"name="radio" value="Yes">
+            <label>Yes</label>
+          
+            <br>
+          
+            <input type="radio" id="radio" style="padding:20px;"name="radio" value="No">
+            <label>No</label>
+          
+            <br>
+          
+            <input type="radio" id="radio" style="padding:20px;" name="radio" value="Maybe">
+            <label>Maybe</label>
+
+            <br>
+                <p>Languages and frameworks known(Check all that apply)</p>
+                <br>
+                <input type="checkbox" id="option1" name="C" value="C">
+                <label>C</label>
+              
+                <br>
+              
+                <input type="checkbox" id="option2" name="C++" value="C++">
+                <label>C++</label>
+              
+                <br>
+              
+                <input type="checkbox" id="option3" name="C#" value="C#">
+                <label>C#</label>
+                <br>
+              
+                <input type="checkbox" id="option4" name="JAVA" value="JAVA">
+                <label>JAVA</label>
+                <br>
+              
+                <input type="checkbox" id="option5" name="PYTHON" value="PYTHON">
+                <label>PYTHON</label>
+                <br>
+              
+                <input type="checkbox" id="option6" name="JavaScript" value="JavaScript">
+                <label>JavaScript</label>
+                <br>
+              
+                <input type="checkbox" id="option7" name="React" value="React">
+                <label>React</label>
+                <br>
+              
+                <input type="checkbox" id="option8" name="Angular" value="Angular">
+                <label>Angular</label>
+                <br>
+              
+                <input type="checkbox" id="option9" name="Django" value="Django">
+                <label>Django</label>
+                <br>
+              
+                <input type="checkbox" id="option10" name="Spring" value="Spring">
+                <label>Spring</label>
+                <br>
+                <p>Any comments suggested?</p>
+                <br>
+                <textarea name="msg" id="msg" cols="30" rows="2" placeholder="Enter the message"></textarea>
+          
+                <br>
+                <input type="submit"  value="Submit" id="submit" >   
+            
+          </form>
+        </div>
+          
+       
+
+        
+       
+    
+</body>
+</html>

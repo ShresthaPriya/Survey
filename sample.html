@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSITE</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-MVWJj8L+IJVpE6LJvYSjYduZ8sl/eC5XGFr/vO5y2Cc5y5wFwz07xOxvJjKpYhYmZVCFoX5m5jJ7mW5kbYNf1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/40d55552c3.js" crossorigin="anonymous"></script> 
+    <style>
+      body{
+    background-image: url('coffee.jpg');
+    background-size: cover;
+    background-position: center;}
+    </style>
+</head>
+<body>
+  
+    <div class="nav">
+        <img src="Logo.png" alt="My logo" height="100px" width="100px">
+        <ul style="display:flex;justify-content: center;align-items: center;">
+            <li><a href="#Home"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#Menu"><i class="fas fa-list-alt"></i> Menu</a></li>
+            <li><a href="#Reviews"><i class="fas fa-money-bill-wave"></i> Reviews</a></li>
+            <li><a href="#Contact"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+      
+        <div class="container">
+          <input type="text" name="name" placeholder="Search here">
+          <button class="button">Search</button>
+      </div>
+    </div>
+  
+    
+    <div class="Content">
+    <h1> Trip <span>&</span> Coffee</h1>
+    
+    <p><span>Spreading the aroma of love!!</span>We serve the best coffee in town. The coffee beans are directely imported from the field.<br>
+       You can enjoy the taste of real brewed coffee.</p>
+    </div>
+    <div id="Menu">
+      <h2>MENU</h2>
+      <table >
+        <tr>
+          <th>Coffee Type</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>Cappacino</td>
+          <td>Rs.250</td>
+        </tr>
+        <tr>
+          <td>Espresso</td>
+          <td>Rs.180</td>
+          
+        </tr>
+        <tr>
+          <td>Americano</td>
+          <td>Rs.210</td>
+        </tr>
+        <tr>
+          <td>Doppio</td>
+          <td>Rs.105</td>
+        </tr>
+        <tr>
+          <td>Frappe</td>
+          <td>Rs.220</td>
+        </tr>
+        <tr>
+          <td>Cafe Latte</td>
+          <td>Rs.210</td>
+        </tr>
+        <tr>
+          <td>Cafe Mocha</td>
+          <td>Rs.240</td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="Reviews">
+      <h3>COSTUMER REVIEWS</h2>
+      <div class="review">
+      <div class="mocha">
+        <h4>MOCHA</h4>
+        <div class="img_moc">
+        <img src="mocha.jpg" alt="Mocha" height="100px" width="130px">
+      </div>
+        <div class="icon">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <span>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </span>
+      </div>
+        <p>I loved the cafe mocha of trip and coffee. <br>Reach out this lovely cafe for the best coffee in town.</p>
+
+      </div>
+      <div class="frappe">
+        <h4>FRAPPE</h4>
+        <div class="img_frappe">
+        <img src="frappe.jpg" alt="frappe" height="100px" width="130px">
+      </div>
+        <div class="icon">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <p> The best frappe I have ever had. <br>Thank you Trip and Coffee.</p>
+
+      </div>
+      <div class="Espresso">
+        <h4>ESPRESSO</h4>
+        <div class="img_esp">
+        <img src="expresso.jpg" alt="espresso" height="100px" width="140px">
+      </div>
+        <div class="icon">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <span>
+          <i class="fa-solid fa-star"></i>
+        </span>
+        </div>
+        <p>The most refreshing espresso. <br> Go visit this Cafe.</p>
+
+      </div>
+    </div>
+    </div>
+    
+    <div id="Contact" >
+      <form class="login-form">
+        <h2>Login</h2>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br>
+        <button type="submit">Log In</button>
+      </form>
+    
+      <form class="signup-form">
+        <h2>Sign Up</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br>
+        <button type="submit">Sign Up</button>
+      </form>
+
+      
+
+    </div>
+    
+
+    
+
+    <footer>
+      Contact Us Here:
+      <div class="media-icon">
+        <a href="https://www.facebook.com/profile.php?id=100008916994768"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/piashrestha07/"><i class="fa-brands fa-square-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/priya-shrestha-105b53253/"><i class="fa-brands fa-linkedin"></i></a>
+         </div>
+    </footer>
+</body>
+</html>
