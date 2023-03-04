@@ -55,7 +55,7 @@ p{
   padding-top: 40px;
   font-weight: 500px;
   font-size: 22px;
-  color: rgb(75, 6, 42);
+  color: rgb(252, 252, 253);
 
 }
 p span{
@@ -63,7 +63,7 @@ p span{
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 35px;
   font-weight: 700px;
-  color: rgb(98, 6, 33);
+  color: rgb(104, 20, 41);
   padding-bottom: 15px;
 }
 #Menu{
@@ -158,7 +158,6 @@ table {
 .review .icon span i{
   color: #fff;
 }
-/* . */
 
 #Contact{
   display: flex; 
@@ -171,15 +170,26 @@ table {
   margin: 50px auto;
 }
 
-footer {
-  background-color: #333;
-  color: #fff;
+button {
+  background-color: white;
+  color: #af6c1b;
+  border: none;
+  padding: 3px 15px;
   text-align: center;
-  padding: 20px;
-  margin-top: 30px;
-  
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
+button:hover {
+  background-color: #af6c1b;
+  color: white;
+  
+}
 .media-icon {
   margin-top: 10px;
 }
@@ -190,5 +200,30 @@ footer {
 
 .fa-brands {
   font-size: 24px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  
+}
+
+.find_us {
+  margin-bottom: 10px;
+}
+
+.find_us i {
+  margin-right: 10px;
+}
+
+.find_us a {
+  color: #e5e4e4;
+}
+
+.find_us a:hover {
+  color: #000;
 }
 
