@@ -76,6 +76,7 @@ p span{
  margin: 50px, auto;
  font-size: 23px;
  
+ 
 }
 table {
     margin: 50px auto;
@@ -130,11 +131,6 @@ table {
   width: 300px;
 }
 
-.review h4 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
 .review p {
   font-size: 18px;
   margin-top: 20px;
@@ -168,6 +164,16 @@ table {
   max-width: 360px;
   height: 320px;
   margin: 50px auto;
+  
+}
+h4{
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.HERE{
+  font-size: 20px;
+  font-weight: 700;
 }
 
 button {
@@ -199,7 +205,7 @@ button:hover {
 }
 
 .fa-brands {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 footer {
