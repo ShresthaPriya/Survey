@@ -161,10 +161,18 @@ table {
   justify-content: center;
   align-items: center;
   background-color: rgb(118, 79, 6);
-  max-width: 360px;
-  height: 320px;
+  max-width: 400px;
+  height: 360px;
   margin: 50px auto;
   
+}
+#password{
+  width: 59%;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+#name{
+  margin-bottom: 12px;
 }
 h4{
   font-size: 20px;
@@ -175,6 +183,7 @@ h4{
   font-size: 20px;
   font-weight: 700;
 }
+
 
 button {
   background-color: white;
