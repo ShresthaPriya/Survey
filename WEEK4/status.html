@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Status</title>
+</head>
+<body>
+    <h1>Todos with Completed Status and ID less than or equal to 50</h1>
+    <div id="status"></div>
+	<script>
+		let todoList = '';
+		fetch('https://jsonplaceholder.typicode.com/todos') //fetch API.
+		.then(response => response.json()) //converting response/data into json object using json method.
+        .then(data => { //store the API into the 'data' variable.
+			data.filter(todo => todo.id <=50 && todo.completed )
+			.forEach(todo => {
+				todoList += `
+					UserId: ${todo.userId}<br>
+					Title: ${todo.title}<br>
+					Status: ${todo.completed}<br>
+					<br>
+				`;
+			});
+			document.getElementById('status').innerHTML = todoList;
+		})
+	</script>
+    
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Display Image from JSON Object</title>
+  </head>
+  <body>
+    <div id="product"></div>
+    
+
+    <script>
+        fetch('https://jsonplaceholder.typicode.com/photos')
+        .then(response => response.json())
+        .then(data =>{
+            data.forEach((photo)=>{
+                if (photo.id == 19){
+                    const img = document.createElement("img");
+                    img.src = photo.url;
+                    const productDiv = document.getElementById("product");
+                    productDiv.appendChild(img);
+                }
+            }
+        )}
+
+        )
+    </script>
+  </body>
+</html>

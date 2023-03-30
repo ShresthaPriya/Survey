@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+<body>
+  <h1>Click to see the filtered array.</h1>
+  <button onclick="displayResult()">Click Me</button>
+  <div id="result"></div>
+
+  <script>
+    //Creating function named ArrayManipulation and passing array, callback1 and callback2 as parameter
+    function arrayManipulation(array, callback1, callback2){
+      const result = array.map(callback1);
+      const filtered = result.filter(callback2);
+
+      return filtered;
+    }
+
+    function displayResult() {
+      const array = [1, 2, 3, 4, 5, 6, 7, 8];
+      //The callback1 function performing an operation to square on each element in the array
+      const callback1 = num => num ** 2;
+
+      // Callback2  filters only the even numbers of num
+      const callback2 = num => num % 2 === 0;
+
+      // Call the arrayManipulation function
+      const result = arrayManipulation(array, callback1, callback2);
+
+      // Get the result element and update its text content
+      const resultElement = document.getElementById("result");
+      resultElement.textContent = "[" + result + "]";//textContent is used to change the existing contents with the new one.
+    }
+  </script>
+</body>
+</html>
